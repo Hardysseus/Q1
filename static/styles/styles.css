@@ -1,0 +1,24 @@
+/*
+__author__ = "René Rose, info@rundwerk.de"
+__version__ = "1.0.0"
+*/
+
+GtkEntry{
+
+}
+
+GtkLabel {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom:5px;
+    padding-left: 10px;
+
+}
+
+GtkButton > GtkLabel {
+    font-size: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left: 0;
+
+}
